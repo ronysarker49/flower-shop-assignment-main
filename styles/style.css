@@ -175,3 +175,83 @@ header {
     border-left: 3px solid #E55473;
     box-shadow: 8px 8px 5px lightgray;
 }
+
+/* Latest deal section related styles */
+
+.latest-deal {
+    background-image: url('../images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 449px;
+    margin: 130px 240px;
+}
+
+.latest-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 100px;
+    margin: 0;
+}
+
+.latest-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.input {
+    text-align: center;
+}
+
+.input input {
+    border: 0;
+    width: 700px;
+    height: 65px;
+    border-radius: 10px;
+    justify-content: center;
+    padding-left: 30px;
+    margin: 40px 0 120px 0;
+}
+
+/* order section styles */
+
+.order-part {
+    background-color: rgba(229, 84, 115, 0.05);
+
+}
+
+.order-title {
+    color: #272727;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    padding-top: 100px;
+    margin: 0;
+}
+
+.order-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 150px 0 300px;
+    gap: 200px;
+}
+
+.form input[type="text"],
+input[type="password"],
+textarea {
+    margin-top: 20px;
+    border: 0;
+    width: 700px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.order-items button {
+    margin: 15px 0 20px 0;
+}
