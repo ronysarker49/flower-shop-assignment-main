@@ -108,3 +108,39 @@ header {
     font-weight: 700;
     text-decoration: underline;
 }
+
+/* hot deal section related styles */
+
+.hot-deal {
+    display: flex;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 130px;
+    align-items: center;
+}
+
+.hot-deal-feature {
+    padding: 100px 200px 100px 420px;
+    text-align: center;
+}
+
+.hot-deal img {
+    margin: 100px 240px 100px 0px;
+}
+
+.deal-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.deal-title span {
+    color: #E55473;
+}
+
+.deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    width: 600px;
+    margin: 30px 0 30px 0;
+}
