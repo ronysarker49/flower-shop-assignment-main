@@ -144,3 +144,34 @@ header {
     width: 600px;
     margin: 30px 0 30px 0;
 }
+
+.ins-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 130px;
+    margin-bottom: 0;
+}
+
+.ins-description {
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 25px 0 50px 0;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.images img {
+    width: 340px;
+    height: 400px;
+    border-radius: 15px;
+    border-left: 3px solid #E55473;
+    box-shadow: 8px 8px 5px lightgray;
+}
