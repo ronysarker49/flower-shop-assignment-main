@@ -255,3 +255,43 @@ textarea {
 .order-items button {
     margin: 15px 0 20px 0;
 }
+
+/* footer relates styles */
+
+footer {
+    background-color: rgba(95, 95, 95, 0.199);
+    margin-top: 150px;
+    text-align: center;
+    height: 400px;
+}
+
+.foot-items {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 150px 0 0 0;
+}
+
+.foot-title {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0 0 10px 0;
+}
+
+.foot-title span {
+    color: #272727;
+}
+
+.foot-description {
+    color: #272727;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.foot-copy-rigth {
+    color: #272727;
+    text-align: center;
+}
