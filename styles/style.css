@@ -6,6 +6,9 @@ body {
     margin: 0;
 }
 
+/* banner related styles */
+
+
 header {
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
@@ -36,4 +39,72 @@ header {
     padding: 20px 40px;
     color: white;
     font-size: 20px;
+}
+
+/* featured related section */
+
+.featured-section {
+    text-align: center;
+    margin-top: 180px;
+}
+
+.featured-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.featured-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.featured-items {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.flower-one img {
+    background-color: rgba(167, 33, 98, 0.15);
+    width: 460px;
+    height: 540px;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+    border: 1px solid rgba(167, 33, 98, 0.966);
+}
+
+.flower-two img {
+    background: rgba(5, 151, 160, 0.15);
+    width: 460px;
+    height: 540px;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+    border: 1px solid rgba(5, 152, 160, 0.938);
+}
+
+.flower-three img {
+    background: rgba(71, 125, 17, 0.15);
+    width: 460px;
+    height: 540px;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+    border: 1px solid rgba(71, 125, 17, 0.932);
+}
+
+.featured-items img {
+    width: 310px;
+    height: 420px;
+    padding: 50px 70px 0 70px;
+}
+
+.featured-items p {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: underline;
 }
